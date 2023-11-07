@@ -1,0 +1,86 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #fff;
+}
+
+.navbar{
+  height: 70px;
+  width: 100%;
+  display: flex;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-form{
+
+}
+
+.card-product{
+  width: 100%;
+  padding: 20px;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.card-product form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-group{
+  display: flex;
+  gap: 10px;
+  margin: 14px;
+}
+
+form input{
+  width: 100px;
+}
+
+input[submit]{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+table, tbody{
+  width: 100%;
+}
+
+.table-product thead{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.table-product td{
+  
+  color: black;
+  text-align: center;
+}
+
+.btn-delete{
+  background-color: rgb(137, 28, 28);
+  color: white;
+  padding: 10px 20px;
+  border: 0;
+}
+/* Your Styles */
